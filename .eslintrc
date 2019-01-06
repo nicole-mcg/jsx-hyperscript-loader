@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "eqeqeq": ["error", "always"],
+    "dot-location": ["error", "property"],
+    "no-unexpected-multiline": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "eol-last": ["error", "always"]
+  },
+  "env": {
+    "jest": true,
+    "node": true
+  }
+}
