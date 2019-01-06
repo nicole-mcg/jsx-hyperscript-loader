@@ -2,3 +2,4 @@ tests
 src
 .babelrc
 .eslintrc
+.travis.yml
