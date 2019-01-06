@@ -1,0 +1,32 @@
+{
+  "name": "jsx-hyperscript-loader",
+  "version": "0.9.0",
+  "description": "A webpack loader for turning JSX into DOM elements using Hyperscript",
+  "main": "index.js",
+  "dependencies": {
+    "generic-jsx-loader": "^0.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nik-m2/jsx-hyperscript-loader.git"
+  },
+  "keywords": [
+    "jsx",
+    "hyperscript",
+    "dom",
+    "xml",
+    "webpack",
+    "loader",
+    "html"
+  ],
+  "author": "Nik M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nik-m2/jsx-hyperscript-loader/issues"
+  },
+  "homepage": "https://github.com/nik-m2/jsx-hyperscript-loader#readme"
+}
