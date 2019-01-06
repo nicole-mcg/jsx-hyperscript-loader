@@ -2,6 +2,8 @@
 
 A webpack loader for using JSX (HTML inside JS) to create DOM elements using [Hyperscript](https://www.npmjs.com/package/hyperscript)
 
+`const div = <div/>`
+
 [Create your own JSX loader](https://github.com/nik-m2/generic-jsx-loader)
 
 ## Setup
