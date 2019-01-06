@@ -38,7 +38,7 @@ module.exports = {
 // parentheses just for clarity (not required) 
 const test = (
    <div class="name-field">
-      Enter your name!!
+      Enter your name
       <input type="text"/>
    </div>
 );
