@@ -1,8 +1,8 @@
-# jsx-hyperscript-loader [![npm version](https://badge.fury.io/js/jsx-hyperscript-loader.svg)](https://badge.fury.io/js/jsx-hyperscript-loader)
+# jsx-hyperscript-loader [![npm version](https://badge.fury.io/js/jsx-hyperscript-loader.svg)](https://badge.fury.io/js/jsx-hyperscript-loader) [![Build Status](https://travis-ci.org/nik-m2/jsx-hyperscript-loader.svg?branch=master)](https://travis-ci.org/nik-m2/jsx-hyperscript-loader)
 
 A webpack loader for using JSX (HTML inside JS) to create DOM elements using [Hyperscript](https://www.npmjs.com/package/hyperscript)
 
-E.g `const div = <div/>`
+E.g `const div = <div>Hello!</div>`
 
 [Create your own JSX loader](https://github.com/nik-m2/generic-jsx-loader)
 
