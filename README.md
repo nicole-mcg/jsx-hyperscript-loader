@@ -17,7 +17,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.gjsx$/, //Replace this with any file extension including .js
+                test: /\.js/, //Replace this with any file extension including .js
                 loader: 'jsx-hyperscript-loader',
             }
         ]
