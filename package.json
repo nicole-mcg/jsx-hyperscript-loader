@@ -4,7 +4,8 @@
   "description": "A webpack loader for turning JSX into DOM elements using Hyperscript",
   "main": "index.js",
   "dependencies": {
-    "generic-jsx-loader": "^0.9.5"
+    "generic-jsx-loader": "^0.9.8",
+    "hyperscript": "^2.0.2"
   },
   "devDependencies": {
     "eslint": "^5.11.1",
