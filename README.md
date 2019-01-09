@@ -17,17 +17,8 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.gjsx$/, //Replace this with any file extension including .js
-                use: [
-                    {
-                        loader: path.resolve('jsx-hyperscript-loader'),
-                        options: {
-                            serialize: function(component) {
-                                return "'JSX_REPLACEMENT'[";
-                            }
-                        }
-                    }
-                ]
+                test: /\.js/, //Replace this with any file extension
+                loader: 'jsx-hyperscript-loader',
             }
         ]
     }
