@@ -7,7 +7,7 @@ function serializeObject(compObj) {
   // We need to recursivly serialize the children too
   const childJS = children && children.reduce((acc, child, index) => {
       acc += `${serialize(child)}`;
-      if (index != children.length - 1) acc += ', ';
+      if (index !== children.length - 1) acc += ', ';
       return acc;
   }, "");
 
@@ -27,7 +27,7 @@ function serialize(parsedComponent){
   }
   
   return serializeObject(parsedComponent);
-};
+}
 
 function createImports() {
   return "const h = require('hyperscript')";
